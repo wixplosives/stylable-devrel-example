@@ -1,0 +1,14 @@
+@st-import [simple] from "./components/hero-section/variants/simple-full.st.css";
+@st-import Hero from "./components/hero-section/hero-section.st.css";
+
+
+.hero-simple {
+    -st-extends: Hero;
+    -st-mixin: simple;
+}
+
+.hero-glow {
+    -st-extends: Hero;
+    -st-mixin: simple(bg red);
+    
+}

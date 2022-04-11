@@ -1,0 +1,13 @@
+.root {
+    contain: layout;
+}
+
+.content {}
+
+.title {}
+
+.subtitle {}
+
+.description {}
+
+.callToAction {}

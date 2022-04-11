@@ -1,0 +1,47 @@
+@st-import Hero from "../hero-section.st.css";
+
+:vars {
+    bg: #e8c218;
+    template: "title"
+        "subtitle"
+        "description"
+        "cta"
+}
+
+.simple {
+    -st-extends: Hero;
+    height: 100vh;
+    contain: layout;
+    background-color: value(bg);
+    background-image: repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent);
+    background-size: 25px 25px;
+    display: flex;
+}
+
+.simple::content {
+    width: 30vw;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template: value(template);
+}
+
+.simple::title {
+    font-size: 3em;
+    grid-area: title;
+}
+
+.simple::subtitle {
+    font-size: 1.5em;
+    grid-area: subtitle;
+}
+
+.simple::description {
+    grid-area: description;
+}
+
+.simple::callToAction {
+    grid-area: cta;
+    font-size: 1.5em;
+    padding: 1rem;
+}
