@@ -11,7 +11,7 @@ export const App: React.VFC<AppProps> = ({ className }) => {
     return (
         <main className={st(classes.root, className)}>
             <HeroSection className={classes['hero-simple']} {...heroSectionSampleData} />
-            <HeroSection className={classes['hero-glow']} {...heroSectionSampleData} />
+            <HeroSection className={classes['hero-fire']} {...heroSectionSampleData} />
         </main>
     );
 };

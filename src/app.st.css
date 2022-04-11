@@ -1,4 +1,4 @@
-@st-import [simple] from "./components/hero-section/variants/simple-full.st.css";
+@st-import [simple] from "./components/hero-section/variants/simple.st.css";
 @st-import Hero from "./components/hero-section/hero-section.st.css";
 
 
@@ -7,8 +7,22 @@
     -st-mixin: simple;
 }
 
-.hero-glow {
+.hero-fire {
     -st-extends: Hero;
-    -st-mixin: simple(bg red);
-    
+    -st-mixin: simple(
+        bg red,
+        cta-color white,
+        strips-color rgba(107, 89, 212, 0.3),
+        strips-distance 2.55rem,
+        template '"title description"
+                 "subtitle subtitle"
+                 "cta cta"'
+    );    
 }
+
+.hero-fire::description {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+ 
