@@ -1,4 +1,5 @@
 import type React from 'react';
+import './components/common.st.css';
 
 import { HeroSection } from './components/hero-section/hero-section';
 import { heroSectionSampleData } from './data-types/hero-section';
