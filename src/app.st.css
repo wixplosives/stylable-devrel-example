@@ -1,28 +1,39 @@
 @st-import [simple] from "./components/hero-section/variants/simple.st.css";
 @st-import Hero from "./components/hero-section/hero-section.st.css";
 
+@st-import [simple as simpleList] from "./components/list/variants/simple-list.st.css";
+@st-import List from "./components/list/list.st.css";
 
-.hero-simple {
+/* simple variant with no overrides */
+
+.heroSimple {
     -st-extends: Hero;
     -st-mixin: simple;
 }
 
-.hero-fire {
+/* simple variant with overrides and inner part custmizations */
+
+.heroFire {
     -st-extends: Hero;
-    -st-mixin: simple(
-        bg red,
-        cta-color white,
-        strips-color rgba(107, 89, 212, 0.3),
-        strips-distance 2.55rem,
-        template '"title description"
-                 "subtitle subtitle"
-                 "cta cta"'
-    );    
+    -st-mixin: simple(bg red,
+            cta-color white,
+            strips-color rgba(107, 89, 212, 0.3),
+            strips-distance 2.55rem,
+            template '
+            "title description"
+            "subtitle subtitle"
+            "cta cta"
+            '
+);
 }
 
-.hero-fire::description {
+.heroFire::description {
     font-size: 1.5em;
     text-align: left;
 }
 
- 
+
+.list {
+    -st-extends: List;
+    -st-mixin: simpleList;
+}

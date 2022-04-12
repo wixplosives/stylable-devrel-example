@@ -1,0 +1,15 @@
+@st-import ListItem from "./list-item.st.css";
+
+.root {
+    contain: layout;
+}
+
+.title {}
+
+.subtitle {}
+
+.list {}
+
+.item {
+    -st-extends: ListItem;
+}

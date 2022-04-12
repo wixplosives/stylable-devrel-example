@@ -1,0 +1,44 @@
+@st-import List from "../list.st.css";
+
+:vars {}
+
+.simple {
+    -st-extends: List;
+    min-height: 100vh;
+}
+
+.simple::title {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.simple::subtitle {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.simple::list {
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.simple::item {
+    min-width: 25vw;
+    list-style: none;
+    padding: 1rem;
+    flex: 1;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.simple::item::title {
+    font-size: 3vw;
+
+}
+
+.simple::item::description {
+    font-size: 1.2vw;
+}

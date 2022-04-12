@@ -37,7 +37,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
-    "eslint-plugin-stylable": "^4.12.0",
     "html-webpack-plugin": "^5.5.0",
     "rimraf": "^3.0.2",
     "serve": "^13.0.2",

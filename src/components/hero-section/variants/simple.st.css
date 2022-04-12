@@ -1,9 +1,9 @@
 @st-import Hero from "../hero-section.st.css";
 
 :vars {
-    cta-color: #ffeb00;
     bg: #67a7ff;
-    text: black;
+    cta-color: #ffeb00;
+    text-color: black;
     template: "title"
         "subtitle"
         "description"
@@ -15,12 +15,11 @@
 .simple {
     -st-extends: Hero;
     height: 100vh;
-    contain: layout;
     background-color: value(bg);
     background-image: linear-gradient(to right, value(strips-color), value(strips-color) 1px, transparent 1px, transparent);
     background-size: value(strips-distance) value(strips-distance);
     display: flex;
-    color: value(text);
+    color: value(text-color);
 }
 
 .simple::content {
