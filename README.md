@@ -1,5 +1,9 @@
 # Stylable App
 
+## Exercise overview
+
+See [presentation overview](https://docs.google.com/presentation/d/1SdkTAGWfLUm3XsvdgHw5jrf5rGVvDMDYA4wnfpJVSEY/edit?usp=drivesdk).
+
 [Stylable](https://github.com/wix/stylable)-powered application. Generated using `create-stylable-app`.
 
 ## Development
