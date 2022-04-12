@@ -13,7 +13,8 @@
     "test": "npm run typecheck && npm run lint",
     "start": "run-p start:*",
     "start:webpack": "webpack serve --open",
-    "start:stylable": "stc --srcDir=src --outDir=st_types --no-cjs --dts --watch --preserveWatchOutput"
+    "start:stylable": "stc --srcDir=src --outDir=st_types --no-cjs --dts --watch --preserveWatchOutput",
+    "build:stylable": "stc --srcDir=src --outDir=st_types --no-cjs --dts"
   },
   "keywords": [],
   "author": "",
