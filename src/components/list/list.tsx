@@ -7,7 +7,7 @@ export interface ListProps extends ListViewSchema {
     className?: string;
 }
 
-export const List: React.VFC<ListProps> = ({ className, subtitle, title, items }) => {
+export const List: React.FC<ListProps> = ({ className, subtitle, title, items }) => {
     return (
         <section className={st(classes.root, className)}>
             <h2 className={classes.title}>{title}</h2>

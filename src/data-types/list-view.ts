@@ -26,40 +26,40 @@ export const listViewSampleData: ListViewSchema = {
             description: 'Yellow out of this world',
         },
         {
-            title: 'Banana',
-            description: 'from the islands of Kululu',
+            title: 'Apple',
+            description: 'Red as blood',
         },
         {
-            title: 'Orange',
-            description: 'Sweet as hell',
+            title: 'Pineapple',
+            description: 'Fresh and tasty',
         },
         {
-            title: 'Lemon',
-            description: 'Yellow out of this world',
+            title: 'Kiwi',
+            description: 'Green as the grass',
         },
         {
-            title: 'Banana',
-            description: 'from the islands of Kululu',
+            title: 'Mango',
+            description: 'Juicy and delicious',
         },
         {
-            title: 'Orange',
-            description: 'Sweet as hell',
+            title: 'Strawberry',
+            description: 'Sweet and sour',
         },
         {
-            title: 'Lemon',
-            description: 'Yellow out of this world',
+            title: 'Watermelon',
+            description: 'The king of fruits',
         },
         {
-            title: 'Banana',
-            description: 'from the islands of Kululu',
+            title: 'Peach',
+            description: 'A gift from the gods',
         },
         {
-            title: 'Orange',
-            description: 'Sweet as hell',
+            title: 'Pear',
+            description: 'A classic',
         },
         {
-            title: 'Lemon',
-            description: 'Yellow out of this world',
+            title: 'Grape',
+            description: 'The best wine',
         },
     ],
 };

@@ -6,7 +6,7 @@ export interface ListItemProps extends Item {
     className?: string;
 }
 
-export const ListItem: React.VFC<ListItemProps> = ({ className, title, description }) => {
+export const ListItem: React.FC<ListItemProps> = ({ className, title, description }) => {
     return (
         <li className={st(classes.root, className)}>
             <h3 className={classes.title}>{title}</h3>

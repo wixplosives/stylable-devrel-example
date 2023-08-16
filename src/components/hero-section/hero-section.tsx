@@ -6,7 +6,7 @@ export interface HeroSectionProps extends HeroSectionSchema {
     className?: string;
 }
 
-export const HeroSection: React.VFC<HeroSectionProps> = ({
+export const HeroSection: React.FC<HeroSectionProps> = ({
     className,
     callToAction,
     description,
